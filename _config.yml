@@ -1,0 +1,27 @@
+title: GadgetJuara
+description: Review tech & gadget Shopee Indonesia — smartphone, laptop, audio, smart home. Spec breakdown jujur dan rekomendasi based on real use case.
+url: https://alisyahbanaku.github.io
+baseurl: /gadgetjuara
+author: Iqbal
+lang: id-ID
+timezone: Asia/Jakarta
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: review
+      author: Iqbal
+
+exclude:
+  - README.md
+  - .gitignore
